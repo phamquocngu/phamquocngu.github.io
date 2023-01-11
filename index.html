@@ -74,7 +74,7 @@
 <body>
 
     <!-- <div class="fh5co-loader"></div> -->
-    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_6.jpg);"
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/background/bg1.jpg);"
         data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
@@ -92,7 +92,7 @@
         </div>
     </header>
 
-    <div id="fh5co-couple">
+    <!-- <div id="fh5co-couple">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -104,20 +104,41 @@
             <div class="couple-wrap animate-box">
                 <div class="couple-half">
                     <div class="groom">
-                        <img src="images/N.PNG" alt="groom" class="img-responsive">
+                        <img src="images/N.jpg" alt="groom" class="img-responsive">
                     </div>
                     <div class="desc-groom">
                         <h3>Quốc Ngữ</h3>
                         <p>Chàng trai IT </p>
                         <p>
-                            <a href="#" class="btn btn-default btn-sm">Mừng cưới chú rể</a>
+                            <a href="#" class="btn btn-default btn-sm" onclick="mungChuRe()">Mừng cưới chú rể</a>
                         </p>
                     </div>
+                </div>
+                <div class="container popup event-wrap animate-box" id="mung-cuoi-chu-re">
+                    <h3>LỄ THÀNH HÔN</h3>
+                    <div class="event-col">
+                        <i class="icon-clock"></i>
+                        <span>10:00</span>
+                    </div>
+                    <div class="event-col">
+                        <i class="icon-calendar"></i>
+                        <span>Thứ Hai, 06-02-2023</span>
+                        <span>Tức 16-01-Quý Mão</span>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                    </div>
+                    <p>Tại Tư Gia Nhà Trai
+                    </p>
+                    <p>Thôn 7, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                    </p>
+                    <button type="button" class="btn cancel" onclick="closeMungChuRe()">Close</button>
                 </div>
                 <p class="heart text-center"><i class="icon-heart2"></i></p>
                 <div class="couple-half">
                     <div class="bride">
-                        <img src="images/Y.PNG" alt="groom" class="img-responsive">
+                        <img src="images/Y.jpg" alt="groom" class="img-responsive">
                     </div>
                     <div class="desc-bride">
                         <h3>Mai Yến</h3>
@@ -129,7 +150,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
         <div class="overlay"></div>
@@ -144,7 +165,7 @@
                 <div class="display-t">
                     <div class="display-tc">
                         <div class="col-md-10 col-md-offset-1">
-                            <div class="col-md-10 col-sm-10 text-center">
+                            <div class="col-md-4 col-sm-4 text-center">
                                 <div class="event-wrap animate-box">
                                     <h3>LỄ THÀNH HÔN</h3>
                                     <div class="event-col">
@@ -156,18 +177,163 @@
                                         <span>Thứ Hai, 06-02-2023</span>
                                         <span>Tức 16-01-Quý Mão</span>
                                     </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
                                     <p>Tại Tư Gia Nhà Trai
                                     </p>
-                                    <p>Thôn 7, xã Đông Sơn, TP.Tam Điệp, Ninh Bình
+                                    <p>Thôn 7, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC NHÀ TRAI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Trai
+                                    </p>
+                                    <p>Thôn 7, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC CƯỚI NHÀ GÁI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Gái
+                                    </p>
+                                    <p>Thôn 5, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-10 col-md-offset-1">
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC CƯỚI NHÀ TRAI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Trai
+                                    </p>
+                                    <p>Thôn 7, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC CƯỚI NHÀ GÁI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Gái
+                                    </p>
+                                    <p>Thôn 5, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="display-t">
+                    <div class="display-tc">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC CƯỚI NHÀ TRAI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Trai
+                                    </p>
+                                    <p>Thôn 7, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <div class="event-wrap animate-box">
+                                    <h3>TIỆC CƯỚI NHÀ GÁI</h3>
+                                    <div class="event-col">
+                                        <i class="icon-clock"></i>
+                                        <span>17:00</span>
+                                    </div>
+                                    <div class="event-col">
+                                        <i class="icon-calendar"></i>
+                                        <span>Chủ Nhật, 05-02-2023</span>
+                                        <span>Tức 15-01-Quý Mão</span>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <p>Tại Tư Gia Nhà Gái
+                                    </p>
+                                    <p>Thôn 5, xã Đông Sơn, TP. Tam Điệp, Ninh Bình
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-    </div>
     </div>
 
     <div class="gototop js-top">
@@ -211,6 +377,18 @@
             day: d.getDate()
         });
 
+        (function () {
+            var curImgId = 0;
+            var numberOfImages = 2; // Change this to the number of background images
+            window.setInterval(function () {
+                let bgImage = 'url(images/background/bg' + curImgId + '.jpg)'
+                document.getElementById("fh5co-header").style.backgroundImage = bgImage;
+                // $('body').css('background-image', 'url(images/background/bg' + curImgId + '.jpg)');
+                curImgId = (curImgId + 1) % numberOfImages;
+            }, 15 * 1000);
+        })();
+
+
         //jQuery example
         // $('#simply-countdown-losange').simplyCountdown({
         //     year: d.getFullYear(),
@@ -218,6 +396,14 @@
         //     day: d.getDate(),
         //     enableUtc: false
         // });
+
+        function mungChuRe() {
+            document.getElementById("mung-cuoi-chu-re").style.display = "block";
+        }
+
+        function closeMungChuRe() {
+            document.getElementById("mung-cuoi-chu-re").style.display = "none";
+        }
     </script>
 
 </body>
