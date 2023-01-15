@@ -351,14 +351,31 @@ figure {
     /* position: fixed; */
     border: 3px solid #f1f1f1;
     z-index: 9;
-    background: #e1e1e1;
+    background: rgba(247, 148, 191, 0.8);
     margin: 0 auto;
     width: 80%;
     position: relative;
-    padding: 2em;
+    padding: 1em;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.img-qr-code {
+    /* position: fixed; */
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    margin: 1em auto;
+    width: 80%;
+    position: relative;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.btn-close {
+    margin-top: 2em !important;
 }
 
 .fh5co-cover .overlay {
@@ -1292,6 +1309,7 @@ form label {
     .couple-half .desc-groom {
         padding-right: 0;
         text-align: center;
+        padding-bottom: 2em;
     }
 
     .couple-half .desc-bride {
@@ -1561,6 +1579,10 @@ form label {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #fh5co-started .form-control::-webkit-input-placeholder {
@@ -1899,7 +1921,7 @@ form label {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Work Sans", Arial, sans-serif;
+    font-family: "Sacramento", Arial, serif;
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 30px;
@@ -2145,6 +2167,8 @@ img {
     /* takes the 100 % width of its container (.box div)*/
     max-height: 100%;
     /* takes the 100 % height of its container (.box div)*/
+    padding-right: 4px;
+    padding-bottom: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */
