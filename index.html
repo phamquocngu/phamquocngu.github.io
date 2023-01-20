@@ -375,19 +375,19 @@
                 day: d.getDate()
             });
 
-            var curImgId = 0;
-            var numberOfImages = 6; // Change this to the number of background images
-            window.setInterval(function () {
-                let bgImage = 'url(images/background/bg' + curImgId + '.jpg)'
-                document.getElementById("fh5co-header").style.backgroundImage = bgImage;
-                // $('body').css('background-image', 'url(images/background/bg' + curImgId + '.jpg)');
-                curImgId = (curImgId + 1) % numberOfImages;
-                //     $("#fh5co-header").fadeOut("slow", function () {
-                //         $(this).css("background-image", "url(images/background/" + images[i] + ")");
-                //         $(this).fadeIn("slow");
-                //     });
-                // }, 10 * 1000);
-            }, 5 * 1000)();
+            // var curImgId = 0;
+            // var numberOfImages = 6; // Change this to the number of background images
+            // window.setInterval(function () {
+            //     let bgImage = 'url(images/background/bg' + curImgId + '.jpg)'
+            //     document.getElementById("fh5co-header").style.backgroundImage = bgImage;
+            //     // $('body').css('background-image', 'url(images/background/bg' + curImgId + '.jpg)');
+            //     curImgId = (curImgId + 1) % numberOfImages;
+            //     //     $("#fh5co-header").fadeOut("slow", function () {
+            //     //         $(this).css("background-image", "url(images/background/" + images[i] + ")");
+            //     //         $(this).fadeIn("slow");
+            //     //     });
+            //     // }, 10 * 1000);
+            // }, 5 * 1000)();
 
             function mungChuRe() {
                 document.getElementById("mung-cuoi-chu-re").style.display = "block";
